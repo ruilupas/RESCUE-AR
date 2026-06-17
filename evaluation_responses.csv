@@ -1,0 +1,5 @@
+Participant_ID,Group,SUS_Q1,SUS_Q2,NASA_Mental,NASA_Physical,Trust_Q1,AR_Utility_Q1
+P01,Operational,4,2,65,40,5,5
+P02,Operational,5,1,70,50,4,5
+P03,Academic,3,3,45,20,4,4
+P04,Academic,4,2,50,25,5,4
