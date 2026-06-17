@@ -1,0 +1,34 @@
+﻿ref_id,reference,year,entity_type,sensor_or_system,scenario,limitation,metric,effect,environment,disaster_type
+[7],Billinghurst et al.,2015,sensor,RGB,occlusion,visual_blockage,TrackingStability,failure,lab,general
+[9],Van Krevelen & Poelman,2010,sensor,RGB,low_visibility,illumination_dependency,DetectionRate,degradation,lab,general
+[12],Gomes et al.,2020,sensor,RGB,fire_smoke,visibility_loss,Recall,significant_drop,real,fire
+[2],Pascoal et al.,2019,sensor,RGB,outdoor_dynamic,motion_blur,Accuracy,degradation,real,outdoor
+[15],Sharma et al.,2023,sensor,RGB,low_visibility,depth_estimation_failure,DepthAccuracy,degradation,lab,general
+[17],Fiala,2005,sensor,RGB,occlusion,fiducial_loss,TrackingStability,failure,lab,general
+[25],Sun et al.,2025,sensor,RGB,low_light,monocular_depth_uncertainty,DepthError,high,lab,general
+[24],Bela et al.,2023,sensor,RGB,low_texture,depth_estimation_instability,RMSE,increase,lab,general
+,,,,,,,,,,
+[13],Fuentes-Pacheco et al.,2015,sensor,VisualSLAM,structural_change,tracking_failure,Drift,high,lab,collapse
+[3],Wang et al.,2022,sensor,VisualSLAM,dynamic_environment,relocalization_failure,SuccessRate,low,simulated,general
+[14],Fan et al.,2025,sensor,VisualSLAM,low_texture,feature_loss,LocalizationError,increase,simulated,general
+,,,,,,,,,,
+[4],Irfan et al.,2025,sensor,IMU,long_duration,drift_accumulation,RMSE,unbounded,simulated,general
+[14],Fan et al.,2025,sensor,IMU,standalone,no_absolute_reference,PositionError,unbounded,simulated,general
+,,,,,,,,,,
+[14],Fan et al.,2025,sensor,LiDAR,smoke_dust,point_cloud_degradation,RMSE,degradation,simulated,fire
+[16],Yang et al.,2020,sensor,LiDAR,reflective_debris,false_returns,DetectionError,increase,lab,collapse
+[23],Gräfe et al.,2021,sensor,LiDAR,occlusion,line_of_sight_loss,DepthAccuracy,degradation,lab,general
+[18],Laconte et al.,2021,sensor,LiDAR,adverse_weather,range_noise,LocalizationError,increase,real,urban
+,,,,,,,,,,
+[18],Laconte et al.,2021,sensor,GPS,urban_canyon,signal_loss,Availability,low,real,earthquake
+[12],Gomes et al.,2020,sensor,GPS,infrastructure_damage,service_unavailable,Availability,very_low,real,disaster
+,,,,,,,,,,
+[5],Satyanarayanan et al.,2009,system,Computing,network_disruption,edge_dependency,Latency,increase,real,disaster
+[6],Siriwardhana et al.,2021,system,Network,congestion,edge_offloading_delay,ResponseTime,variable,real,disaster
+[8],Chatzopoulos et al.,2017,system,AR_System,outdoor_instability,rendering_delay,FrameRate,degradation,real,outdoor
+[10],Cao et al.,2023,system,AR_Framework,high_load,computational_overhead,Latency,increase,lab,general
+[11],Kim et al.,2017,system,AR_System,complex_scenes,registration_instability,AlignmentError,increase,lab,general
+[19],Lv et al.,2015,system,Wearable_AR,continuous_use,vision_fatigue,InteractionAccuracy,degradation,real,outdoor
+[20],Pascoal et al.,2020,system,Mobile_AR,outdoor_variability,context_mismatch,QoE,degradation,real,outdoor
+[21],Pascoal & Guerreiro,2017,system,Human_System_Interface,high_stress,information_overload,DecisionAccuracy,degradation,real,emergency
+[22],Pascoal et al.,2025,system,ML_AR_System,data_variability,model_misadaptation,Relevance,degradation,real,outdoor
