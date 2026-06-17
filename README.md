@@ -18,7 +18,9 @@ The user-centered validation evaluated:
 2.  **NASA Task Load Index (NASA-TLX)** for anticipated cognitive and physical workload.
 3.  **Core Concept & Operational Suitability** (Trust, data accuracy confidence, and visual annotation utility).
 
-The raw, anonymized dataset can be found in `data/evaluation_responses.csv`.
+The raw, anonymized datasets can be found in the following files:
+* `data/evaluation_responses.csv`: Contains the survey and questionnaire responses from the user-centered evaluation ($$n=19$$, divided into Operational and Academic groups).
+* `data/sensor_fusion_metrics.csv`: Numerical data and sensor behavior parameters under the simulated disaster use cases (e.g., variable visual features $$N_f$$, GNSS degradation).
 
 ## License
 
